@@ -1,0 +1,157 @@
+#home{
+    background-color: #1E202B;
+    height: 100vh;
+}
+.logo-title{
+	height: 45px;
+}
+.logo-title img{
+	width: 100%;
+}
+.title h4{
+	font-size: 20px;
+	margin: 0px;
+	color: white;
+}
+a , p , small {
+	margin: 0px;
+	color: white;
+}
+li {
+	padding: 0px 25px;
+	/* background-color: #1E202B; */
+}
+li:hover a{
+	border: 1px solid #009AD8;
+	border-radius: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+}
+.background-middle{
+	background-image: url('/imgs/banner.png');
+	height: 350px;
+}
+#footer{
+	background-color: #262936;
+}
+#footer input{
+	border-radius: 20px;
+	width: 300px;
+}
+.input-form{
+	height: 45px;
+	width: 600px;
+	border-radius: 20px;
+    background-color: #1E202B;
+}
+.icons-div{
+	color: #0099D7;
+	border-radius: 100%;
+}
+#footer li {
+	list-style: none;
+	display: inline-block;
+	padding: 0px 0px;
+}
+#footer .icons-div{
+	border-radius: 100%;
+    background-color: #1E202B;
+	padding: 10px 17px;
+	cursor: pointer;
+	
+}
+#footer .icons-div:hover{
+    background-color: #0099D7;
+	color: white;
+}
+.show-waether-div{
+	width: 1100px;
+	height: 480px;
+	/* background-color: red; */
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
+.weather-input-form{
+	height: 55px;
+	width: 100%;
+	border-radius: 30px;
+    background-color: #1E202B;
+}
+.table-for-weather{
+	width: 100%;
+}
+table{
+	width: 100%;
+	background-color: #323544;
+}
+table td{
+	border: none;
+	color: white;
+	max-width: 50px;
+}
+table td.next-days{
+	border: none;
+	color: white;
+	max-width: 50px;
+	text-align: center;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    /* --bs-table-accent-bg: var(--bs-table-striped-bg); */
+	border: none;
+color: white;}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color:#2D303D;
+ }
+ .table-striped-columns>:not(caption)>tr>:nth-child(2n) {
+   background-color: #1F212C;
+    color: white;
+}
+.data{
+	height: 280px;
+}
+
+.weather-icon{
+	font-weight: 700;
+	font-size: 24px;
+} 
+.country-text{
+	font-size: 30px;
+	font-weight: 600;
+}
+.weather-status{
+	color: #009AD8;
+}
+.degree-icon{
+	font-weight: 700;
+	font-size: 90px;
+}
+.dgree-text{
+	font-weight: 700;
+	font-size: 90px;
+}
+input{
+	width: 500px;
+	margin-top: 7px;
+	margin-left: 20px;
+	height: 40px;
+	background-color: #1E202B;
+	border: none;
+	color: white;
+	
+}
+input:focus-visible{
+background-color: transparent;
+border:0px solid transparent;
+outline: none;
+}
+.find{
+	background-color: #0099D7;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
+
+
